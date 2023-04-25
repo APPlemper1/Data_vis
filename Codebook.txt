@@ -1,0 +1,17 @@
+The original dataset used for this project has been obtained from the Office of national statistics. It contains data on all of the 
+registered suicides in England from 1981-2021. A copy of the original dataset, along with the original codebook, can be found in the 
+“data” file of this collection. The original file also contains information on how suicides were registered. 
+For this visualisation, I have saved Table 4 of this data set as a CSV, which is called 'raw_data' in my Rscript. 
+
+The variables from the original data set used in the present visualisation were collated into a data frame called ‘df1’, 
+these variables included: 
+
+Sex: biological sex of the victim of suicide. Levels are: Males, Females and Persons (mean for both males and females)
+
+Area: The region of England with mean data for all regions added as an additional variable. 
+Levels are: North East, North West, Yorkshire and The Humber, East Midlands, West Midlands, East, London, South East, South West, 
+Mean for all regions. 
+
+year : The year ranging from 1981 to 2021. Levels are: one entry for each year for each area. 
+
+rates_per_100k: This is the age standardised suicide rate per 100,000 and is scale data.
